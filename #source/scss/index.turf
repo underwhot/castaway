@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- https://www.figma.com/file/NMIny5tzxSMHSD2gRGcTCy/Castaway?node-id=0%3A1 -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scaleble=0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Castaway | Next level podcast</title>
+</head>
+<body id="body">
+  <div class="wrapper">
+    <!-- @import "header.html" -->
+
+    <div class="main">
+      <div class="container">
+        <div class="main__body">
+          <div class="main__column">
+            <div class="main__image ibg"><img src="img/01.jpg" alt=""></div>
+          </div>
+          <div class="main__column">
+            <div class="main__content content">
+              <div class="content__text">Take your podcast to the <span>next</span> <span>level</span></div>
+              <div class="content__items items">
+                <div class="items__title">Listen on</div>
+                <div class="items__icons icons">
+                  <a class="icons__icon" href="#"></a>
+                  <a class="icons__icon" href="#"></a>
+                  <a class="icons__icon" href="#"></a>
+                  <a class="icons__icon" href="#"></a>
+                  <a class="icons__icon" href="#"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="episodes" class="latest">
+      <div class="container">
+        <div class="latest__top">
+          <div class="latest__title title">Latest episodes</div>
+          <a href="#" class="latest__btn btn">View all episodes</a>
+        </div>
+        <div class="latest__bottom cards">
+          <div class="cards__item">
+            <div class="cards__body">
+              <div class="cards__column">
+                <a href="#" class="cards__image ibg"><img src="img/ep/01.jpg" alt=""></a>
+              </div>
+              <div class="cards__column">
+                <div class="cards__content">
+                  <div class="cards__ticket">Gear</div>
+                  <div class="cards__ep label">Episode 3</div>
+                  <a href="#" class="cards__title">Should you get outboard audio gear?</a>
+                  <div class="cards__text">Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.</div>
+                  <a href="#" class="cards__btn btn">View Episode Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards__item">
+            <div class="cards__body">
+              <div class="cards__column">
+                <a href="#" class="cards__image ibg"><img src="img/ep/02.jpg" alt=""></a>
+              </div>
+              <div class="cards__column">
+                <div class="cards__content">
+                  <div class="cards__ticket">Tips & Tricks</div>
+                  <div class="cards__ep label">Episode 2</div>
+                  <a href="#" class="cards__title">Mic tricks to take you to the next level</a>
+                  <div class="cards__text">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</div>
+                  <a href="#" class="cards__btn btn">View Episode Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards__item">
+            <div class="cards__body">
+              <div class="cards__column">
+                <a href="#" class="cards__image ibg"><img src="img/ep/03.jpg" alt=""></a>
+              </div>
+              <div class="cards__column">
+                <div class="cards__content">
+                  <div class="cards__ticket">Gear</div>
+                  <div class="cards__ep label">Episode 1</div>
+                  <a href="#" class="cards__title">The best microphone under $200</a>
+                  <div class="cards__text">With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.</div>
+                  <a href="#" class="cards__btn btn">View Episode Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about" class="name">
+      <div class="container">
+        <div class="name__body">
+          <div class="name__column">
+            <div class="name__items">
+              <a href="#" class="name__arrow"></a>
+              <div class="name__label label">Meet your host</div>
+              <a href="#" class="name__title">Jacob Paulaner</a>
+              <div class="name__text">
+                <p>Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
+                <p>He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+              </div>
+            </div>
+          </div>
+          <div class="name__column">
+            <div class="name__image ibg"><img src="img/02.jpg" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="subscrible">
+      <div class="container">
+        <div class="subscrible__body">
+          <div class="subscrible__column">
+            <div class="subscrible__text">
+              <div class="subscrible__label label">Email Newsletter</div>
+              <div class="subscrible__title title">Subscribe for updates</div>
+            </div>
+          </div>
+          <div class="subscrible__column">
+            <form class="subscrible-form">
+              <div class="subscrible-form-line">
+                <input class="input" type="text" name="name" autocomplete="off" placeholder="Name">
+              </div>
+              <div class="subscrible-form-line">
+                <input class="input" type="email" name="email" autocomplete="off" placeholder="Email">
+              </div>
+              <div class="subscrible-form-button">
+                <button class="subscrible-form-btn btn">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="review">
+      <div class="container">
+        <div class="review__body">
+          <div class="review__tile tile">
+            <div class="tile__body">
+              <div class="tile__stars">
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+              </div>
+              <div class="tile__title">I can’t recommend this podcast enough</div>
+              <div class="tile__name">Betty Lacey</div>
+            </div>
+          </div>
+          <div class="review__tile tile">
+            <div class="tile__body">
+              <div class="tile__stars">
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+              </div>
+              <div class="tile__title">Jacob is the best in the business</div>
+              <div class="tile__name">Adam Driver</div>
+            </div>
+          </div>
+          <div class="review__tile tile">
+            <div class="tile__body">
+              <div class="tile__stars">
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+              </div>
+              <div class="tile__title">A wealth of audio knowledge</div>
+              <div class="tile__name">Marcus Brown</div>
+            </div>
+          </div>
+          <div class="review__tile tile">
+            <div class="tile__body">
+              <div class="tile__stars">
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+              </div>
+              <div class="tile__title">Every episode is a gem!</div>
+              <div class="tile__name">Jessica Knowl</div>
+            </div>
+          </div>
+          <div class="review__tile tile">
+            <div class="tile__body">
+              <div class="tile__stars">
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+              </div>
+              <div class="tile__title">Whoa whoa, let me take some notes!</div>
+              <div class="tile__name">Scott Adams</div>
+            </div>
+          </div>
+          <div class="review__tile tile">
+            <div class="tile__body">
+              <div class="tile__stars">
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+                <span class="tile__star"></span>
+              </div>
+              <div class="tile__title">I’ve upped my game considerably since I started listening</div>
+              <div class="tile__name">Steven Blast</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- @import "footer.html" -->
+
+  </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
